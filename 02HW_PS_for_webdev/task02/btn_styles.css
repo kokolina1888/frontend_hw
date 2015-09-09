@@ -1,3 +1,4 @@
+/** FIRST BUTTON**/
 input[type="submit"]#frst {
 width: 110px;
 height: 36px;
@@ -8,12 +9,35 @@ background-image: url("frst_button_normal.png");
 color: #fff;
 font-family: "Myriad Pro";
 font-size: 13px;
+text-transform: uppercase;
+margin-right: 20px;
 }
 input[type="submit"]#frst:hover {
 	background-image: url("frst_button_hover.png");
-	box-shadow: 0 3px 0 rgb(185, 130, 185);
-}
-/**input[type="submit"]#frst:active {
+	box-shadow: none;
+	height: 39px;
+	}
+input[type="submit"]#frst:active {
 	background-image: url("frst_button_active.png");
-	box-shadow: 0 3px 0 rgb(185, 130, 185);
-}**/
+	box-shadow: none;
+	height: 39px;
+}
+/** SECOND BUTTON **/
+input[type="submit"]#scnd {
+width: 224px;
+height: 54px;
+border-radius: 24px;
+/**border: 1 px solid rgb(0, 91, 0);**/
+border: none;
+background-image: url("scnd_button_normal.png");
+background-position: -3px -6px;
+color: #fff;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 19.5px;
+text-transform: uppercase;
+}
+input[type="submit"]#scnd:hover {
+	background-image: url("scnd_button_hover.png");
+	box-shadow: none;
+	background-position: -3px -4px;
+	}
