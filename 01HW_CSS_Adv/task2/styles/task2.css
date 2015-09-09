@@ -149,26 +149,21 @@ body #wrapper > section article .article-content p {
 @media only screen and (max-width: 480px) {
 	body #wrapper {
 		width: 100%;
-		position: relative;
 	}
 	body #wrapper > header {		
 		border-bottom: none;
+		padding: 25px 0;
 	}
 	body #wrapper > header h1 {
 		text-align: center;
 	}
 	body #wrapper > header nav {
 		float: none;
-		margin-top: 5px;
-		zoom: 1;
 	}
 	body #wrapper > header nav ul li {
 		display: block;
-		position: relative;
-		left: -2%;
-		margin-top: 6px;
-		margin-left: 0;
-		width: 100%;
+		margin: 6px auto;
+		width: 98%;
 		text-align: center;
 	}
 	section>header {
