@@ -1,0 +1,30 @@
+body, p, di, img {
+	margin: 0;
+	padding: 0;
+}
+#frst {
+	border: 1px solid black;
+}
+img {
+	float: left;
+	margin: 4px;
+}
+#frst p {
+	margin: 4px;
+}
+span {
+	font-weight: bold;
+}
+/***SECOND PART***/
+
+#scnd {
+	clear: both;
+	border: 1px solid black;
+	position: relative;
+	top: 80px;
+}
+p#initial:after{
+	content: "";
+	display: block;
+	clear: both;
+}

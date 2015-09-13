@@ -1,0 +1,64 @@
+body{
+	background-color: #BE7F7F;
+	margin: 0;
+	padding: 0;
+}
+div#wrap {
+	width: 90%;
+	height: 1200px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+#frst #pink{
+	background-color: pink;
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+#frst #blue{
+	background-color: blue;
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+#frst #yellow{
+	background-color: yellow;
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+
+#frst:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+#scnd{	
+	margin-top: 50px;
+}
+#scnd #pink{
+	background-color: pink;
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+#scnd #blue{
+	background-color: blue;
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+#scnd #yellow{
+	clear: both;
+	background-color: yellow;
+	width: 25%;
+	height: 250px;
+	float: left;
+}
+#scnd #orange{
+	clear: both;
+	background-color: orange;
+	width: 25%;
+	height: 250px;
+	float: left;
+}

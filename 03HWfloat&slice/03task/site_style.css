@@ -1,0 +1,170 @@
+html, body, div, img, p, a, span {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: rgb(82, 99, 115);
+}
+div#wrap {
+	width: 1315px;
+	height: 1520px;
+	background-color: #fff;
+	position: relative;
+	top: 0;
+	left: 20px;
+	font-family: "Myriad Pro", Arial, Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: rgb(47, 48, 58);
+	
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+div#header {
+	width: 100%;
+}
+#main_img {
+	position: absolute;
+	top: 0;
+	left: 332;
+}
+#left-sidebar {
+	width: 245px;
+	height: 597px;
+	padding-top: 64px;
+	padding-left: 30px;
+	padding-right: 57px;
+	background-color: rgb(243, 243, 243);
+
+	
+}
+#left-sidebar>img {
+	margin-left: 28px;
+}
+#left-sidebar p#name {
+	margin-top: 57px;
+	font-size: 2.9em;
+
+}
+#left-sidebar p#name span {
+	font-weight: bold;
+}
+#left-sidebar p#price {
+	margin-top: 45px;
+	font-size: 3.6em;
+	font-weight: bold;
+}
+#left-sidebar p#price>span {
+	font-size: 0.44em;
+}
+#left-sidebar #button {
+	border-radius: 8px;
+	background-color: rgb(21, 190, 116);
+	line-height: 59px;
+	text-align: center;
+	color: $fff;
+}
+#left-sidebar #button a {	
+	font-size: 1.8em;
+}
+/*** CENTRAL PART***/
+div#central {
+	width: 1049;
+	height: 343px;
+	margin-left: 133px;
+}
+.product {
+	width: 185px;
+	height: 303px;
+	padding-top: 40;
+	float: left;
+	margin-right: 31px;
+	font-size: 1.7em
+}
+.product:nth-of-type(5){
+	margin-right: 0;
+}
+.product:hover{
+	background-color: rgb(243, 243, 243);
+}
+.product img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+p.price{
+	width: 103px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 15px;
+	background-color: rgb(21, 190, 116);
+	margin: 26px auto;
+	
+}
+p.descr{
+	width: 140px;
+	margin: 25px auto;
+	text-align: center;
+
+}
+
+/*** BOTTOM PART***/
+div#bottom{	
+	width: 1026px;
+	height: 370px;
+	margin-top: 69px;
+	margin-left: 153px;
+}
+img.featured{
+	margin-right: 14px;
+}
+div#right_sidebar{
+	width: 498px;
+	height: 331px;
+	position: absolute;
+	top: 1070px;
+	right: 132px;
+	border: 4px solid rgb(232, 226, 226);
+}
+div#right_sidebar>div {
+	margin-top: 27px;
+	margin-left: 20px;
+}
+div#right_sidebar div#offer_info{
+	position: relative;
+	top: -13px;
+}
+div#right_sidebar div p.info {
+	font-weight: bold;
+	font-size: 2.5em;
+	line-height: 40px;
+}
+
+#right_sidebar>img {
+	position: absolute;
+	top: 95px;
+	left: 190px;
+}
+
+#right_sidebar #offer{
+	font-weight: bold;
+	font-size: 2.5em;
+	color: rgb(21, 190, 116);
+	
+}
+#right_sidebar #info_text{
+	margin-top: 32px;
+	font-size: 1.3em;
+	width: 125px;
+	position: relative;
+	top: -20px;
+}
+#green_button {
+	width: 136px;
+	line-height: 36px;
+	text-align: center;
+	background-color: rgb(21, 190, 116);
+	border-radius: 8px;
+	margin-top: 15px;
+}
