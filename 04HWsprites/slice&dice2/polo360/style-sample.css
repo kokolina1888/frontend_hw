@@ -1,0 +1,53 @@
+nav#main span.int, #slider p, 
+	div#main .column h2, 
+	input[type='submit'][value], 
+	div#social .column h3:nth-of-type(1)
+{
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+nav#main span.int
+{
+	font-size: 14px;
+
+}
+
+#slider p
+{
+	font-size: 24px;
+}
+div#main .column h2
+{
+	font-size: 21px;
+}
+input[type='submit'][value]
+{
+	font-size: 12px;
+}
+nav#main span.int2
+{
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	font-size: 11px;
+}
+div#main .column h4, p, a, div#social .column p, #footer div p, a
+{
+	font-family: Helvetica, sans-serif;
+}
+div#social .column p
+{
+	font-size: 12px;
+}
+	
+#footer div p, a
+{
+	font-size: 11px;
+}
+
+div#social .column h3:nth-of-type(2)
+{
+	font-family: "Gill Sans MT", Calibri, sans-serif;
+}
+input[type='text'][placeholder], textarea[placeholder]
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
